@@ -1,0 +1,7 @@
+syntax = "proto3";
+package chainthree.chainthree;
+
+option go_package = "chainthree/x/chainthree/types";
+
+// Msg defines the Msg service.
+service Msg {}

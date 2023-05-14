@@ -1,0 +1,12 @@
+syntax = "proto3";
+package chainthree.chainthree;
+
+import "gogoproto/gogo.proto";
+import "chainthree/chainthree/params.proto";
+
+option go_package = "chainthree/x/chainthree/types";
+
+// GenesisState defines the chainthree module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

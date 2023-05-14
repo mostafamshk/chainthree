@@ -1,0 +1,29 @@
+version: 1
+accounts:
+- name: mostafa
+  coins:
+  - 20000token
+  - 200000000stake
+- name: hasan
+  coins:
+  - 10000token
+  - 200000000stake
+- name: reza
+  coins:
+  - 5000token
+  - 200000000stake  
+- name: saeed
+  coins:
+  - 5000token
+  - 200000000stake    
+client:
+  openapi:
+    path: docs/static/openapi.yml
+faucet:
+  name: hasan
+  coins:
+  - 5token
+  - 100000stake
+validators:
+- name: mostafa
+  bonded: 100000000stake
